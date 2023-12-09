@@ -1,7 +1,9 @@
 def add_task():
   task = input("enter your tasks : ")
-  tasks.append(task)
-  print(task + " added to the list ")
+  for x in range(len(tasks)):
+    x+=1
+    tasks.append(task)
+    print(task + " added to the list ")
 
 
 
